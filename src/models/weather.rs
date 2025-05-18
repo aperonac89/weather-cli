@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Serialize, Deserialize)]
 pub struct WeatherResponse {
     pub name: String,
-    pub cord: Coords,
+    pub coord: Coords,
     pub main: Main,
     pub weather: Vec<Weather>,
 }
